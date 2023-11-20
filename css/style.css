@@ -1,0 +1,138 @@
+body{
+    background: url(../images/background-illuminati.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+header{
+    background-color: rgb(75, 71, 71);
+    opacity: 0.8;
+    width: 100vw;
+    height: 10vh;
+    margin:  auto;
+    color: white;
+    z-index: 1;
+    padding-bottom: 2vh;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(75, 71, 71);
+    opacity: 0.8;
+    margin:  auto;
+    color: white;
+    z-index: 1;
+    padding-top: 2vh;
+}
+h1{
+    text-align: center;
+    margin: auto 0;
+    font-family: inter;
+    font-weight: bold;
+    font-size: 48px;
+    padding-top: 5vh;
+}
+.footerText{
+    text-align: center;
+    margin: auto 0;
+    font-family: inter;
+    font-size: 22px;
+    margin-top: 5vh;
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2vh;
+    width: fit-content;
+    text-decoration: none;
+}
+input{
+    font-family: inter;
+    font-size: 28px;
+}
+.boutons{
+    height: 80vh;
+    margin:  auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: inter;
+    font-size: 22px;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+li:hover{
+    opacity: 0.6;
+}
+
+input{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 1vw;
+  height: 5vh;
+  width: 10vw;
+  line-height: 1.15;
+  margin: 0 auto;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+label{
+    color: white;
+    font-family: inter;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    background-color: rgb(75, 71, 71);
+    opacity: 1.5;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 10vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+}
+input:disabled {
+    cursor: default;
+  }
+  
+input:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+input:hover{
+    opacity: 0.7;
+}
